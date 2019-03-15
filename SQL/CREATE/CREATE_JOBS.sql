@@ -9,8 +9,8 @@
 -- jobs table
 CREATE TABLE JOBS (
     ID INT PRIMARY KEY,
-    TITLE VARCHAR(64) NOT NULL,
-    DESCRIPTION VARCHAR(512)
+    TITLE VARCHAR2(64) NOT NULL,
+    DESCRIPTION VARCHAR2(512)
 );
 
 -- sequence to increment id

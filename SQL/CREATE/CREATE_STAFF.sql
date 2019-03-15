@@ -1,0 +1,26 @@
+/*
+ * CSE 572 Winter 2019 Group 6
+ * Iron River Animal Hospital
+ */
+
+-- To insert into table:
+-- INSERT INTO STAFF VALUES(staff_id.nextval, [first name], ...);
+
+-- staff table
+CREATE TABLE STAFF (
+    ID INT PRIMARY KEY,
+    FIRST_NAME VARCHAR2(64) NOT NULL,
+    LAST_NAME VARCHAR2(64) NOT NULL,
+    ADDRESS VARCHAR2(64),
+    ZIP_CODE VARCHAR2(8),
+    PHONE_NUMBER VARCHAR2(16),
+    EMAIL VARCHAR2(128),
+    JOB_ID INT,
+    SALARY NUMBER(8, 2) CHECK (SALARY >= 0),
+    DOB DATE NOT NULL,
+    SCHEDULE VARCHAR2(512),
+    CONSTRAINT staff_job_id_fk FOREIGN KEY (JOB_ID) REFERENCES JOBS(ID)
+);
+
+-- sequence to increment id
+CREATE SEQUENCE staff_id INCREMENT BY 1 START WITH 0 MINVALUE 0;
