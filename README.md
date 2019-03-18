@@ -26,10 +26,10 @@ List of tables. Sub-bullets contain foreign key(s) to parent bullet(s).
 
 |Column|
 |------|
-|ID|
-|Pet ID|
-|Staff ID|
-|Drug ID|
+|**ID**|
+|*Pet ID*|
+|*Staff ID*|
+|*Drug ID*|
 |Appointment Date|
 |Check In|
 |Check Out|
@@ -38,16 +38,16 @@ List of tables. Sub-bullets contain foreign key(s) to parent bullet(s).
 
 |Column|
 |------|
-|ID|
-|Post ID|
-|User ID|
+|**ID**|
+|*Post ID*|
+|*User ID*|
 |Comment Text|
 
 ## Drugs
 
 |Column|
 |------|
-|ID|
+|**ID**|
 |Name|
 |Description|
 |Symptoms|
@@ -57,8 +57,8 @@ List of tables. Sub-bullets contain foreign key(s) to parent bullet(s).
 
 |Column|
 |------|
-|Veterinarian ID|
-|User ID|
+|***Veterinarian ID***|
+|***User ID***|
 |Rating|
 |Comment Text|
 
@@ -66,7 +66,7 @@ List of tables. Sub-bullets contain foreign key(s) to parent bullet(s).
 
 |Column|
 |------|
-|ID|
+|**ID**|
 |Name|
 |Policy Number|
 |Address|
@@ -77,7 +77,7 @@ List of tables. Sub-bullets contain foreign key(s) to parent bullet(s).
 
 |Column|
 |------|
-|ID|
+|**ID**|
 |Title|
 |Description|
 
@@ -85,15 +85,15 @@ List of tables. Sub-bullets contain foreign key(s) to parent bullet(s).
 
 |Column|
 |------|
-|Post ID|
-|User ID|
+|***Post ID***|
+|***User ID***|
 
 ## Medical History
 
 |Column|
 |------|
-|ID|
-|Pet ID|
+|**ID**|
+|*Pet ID*|
 |Allergies|
 |Vaccines|
 |Chipped|
@@ -102,21 +102,21 @@ List of tables. Sub-bullets contain foreign key(s) to parent bullet(s).
 
 |Column|
 |------|
-|ID|
+|**ID**|
 |First Name|
 |Last Name|
 |Email|
 |Address|
 |Zip Code|
-|Insurance ID|
+|*Insurance ID*|
 |Phone Number|
 
 ## Payment Methods
 
 |Column|
 |------|
-|ID|
-|Owner ID|
+|**ID**|
+|*Owner ID*|
 |Card Number|
 |Card Expiration|
 
@@ -124,9 +124,9 @@ List of tables. Sub-bullets contain foreign key(s) to parent bullet(s).
 
 |Column|
 |------|
-|ID|
+|**ID**|
 |Billed On|
-|Payment Method ID|
+|*Payment Method ID*|
 |Amount Due|
 |Amount Paid|
 
@@ -134,11 +134,11 @@ List of tables. Sub-bullets contain foreign key(s) to parent bullet(s).
 
 |Column|
 |------|
-|ID|
+|**ID**|
 |Name|
-|Type ID|
+|*Type ID*|
 |DOB|
-|Owner ID|
+|*Owner ID*|
 |Gender|
 |Height|
 |Weight|
@@ -147,22 +147,22 @@ List of tables. Sub-bullets contain foreign key(s) to parent bullet(s).
 
 |Column|
 |------|
-|ID|
-|User ID|
+|**ID**|
+|*User ID*|
 |Comment Text|
 
 ## Staff
 
 |Column|
 |------|
-|ID|
+|**ID**|
 |First Name|
 |Last Name|
 |Address|
 |Zip Code|
 |Phone Number|
 |Email|
-|Job ID|
+|*Job ID*|
 |Salary|
 |DOB|
 |Schedule|
@@ -171,7 +171,7 @@ List of tables. Sub-bullets contain foreign key(s) to parent bullet(s).
 
 |Column|
 |------|
-|ID|
+|**ID**|
 |Name|
 |Description|
 
@@ -179,7 +179,7 @@ List of tables. Sub-bullets contain foreign key(s) to parent bullet(s).
 
 |Column|
 |------|
-|ID|
+|**ID**|
 |Account Type|
 |Username|
 |Encrypted Password|
@@ -191,7 +191,7 @@ List of tables. Sub-bullets contain foreign key(s) to parent bullet(s).
 
 |Column|
 |------|
-|ID|
+|***ID***|
 |Education|
 |Experience|
 |Biography|
