@@ -33,6 +33,7 @@ List of tables. Sub-bullets contain foreign key(s) to parent bullet(s).
 |Appointment Date|
 |Check In|
 |Check Out|
+|Description|
 
 ## Comments
 
